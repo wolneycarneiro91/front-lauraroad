@@ -14,7 +14,7 @@ export const UserList = () => (
 export const UserCreate = () => (
     <Create>
         <SimpleForm>    
-            <TextInput source="name" />
+            <TextInput source="name" />           
             <TextInput source="email" />
             <TextInput source="password" type="password"/>
         </SimpleForm>
